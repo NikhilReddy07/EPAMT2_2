@@ -4,7 +4,7 @@ public class ConstructionCostCalculator {
 	
 	// Area is in sq.ft
 	public int calculateCost(String materialStandard, double area, boolean fullyAutomated) {
-		if(materialStandard.equals("high standard materials") && fullyAutomated==true)
+		if(materialStandard.equals("high standard materials") && fullyAutomated)
 		{
 			return (int) (2500*area);// Cost per sq.ft * area
 		}
